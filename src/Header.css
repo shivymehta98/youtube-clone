@@ -19,6 +19,9 @@
   width: 40%;
   border: 1px solid lightgray;
 }
+.header_input > input {
+  outline-width: 0;
+}
 .header_icon {
   margin-right: 8px;
 }

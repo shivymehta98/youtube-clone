@@ -6,87 +6,94 @@ function RecommendedVideos() {
         <div className ="recommendedVideos">
             <h2>Recommended videos</h2>
             <div className = "recommendedVideos_Videos">
-                <VideoCard 
-                    title = "Let's Build a YouTube Clone with REACT JS for Beginners"
-                    views = "164K views"
-                    timestamp = "9 months ago"
-                    channelImage =  "https://yt3.ggpht.com/ytc/AAUvwniwccxGvXvGzzwka5f73aPbmdxvEX4G_cUd7TEzkw=s68-c-k-c0x00ffffff-no-rj" 
-                    Channel = "Clever Programmer"
-                    image = "https://i.ytimg.com/vi/NT299zIk2JY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqZPjIgBJ_NTf7TnAGCXmQQ5C85Q"
-                />
-               
-               <VideoCard 
-                    title = "Finalizing our New Apartment!!"
-                    views = "16K views"
-                    timestamp = "5 months ago"
-                    channelImage =  "https://yt3.ggpht.com/ytc/AAUvwngMyo6TcEV9l15uN7DOd7RHMQiB3Yrmt7JHpbfHJQ=s68-c-k-c0x00ffffff-no-rj" 
-                    Channel = "Singh in USA"
-                    image = "https://i.ytimg.com/an_webp/1UmvPQEBR1w/mqdefault_6s.webp?du=3000&sqp=CLSCp4UG&rs=AOn4CLDv3dHV9gGovO0Ra0GoOqPEuQh8rA"
-                />  
-                <VideoCard 
-                title = "Bollywood's UNTOLD Dark Truths, Secrets, Gossips And More ft. Renil Abraham | The Ranveer Show 09"
-                views = "787K views"
-                timestamp = "1 year ago"
-                channelImage =  "https://yt3.ggpht.com/ytc/AAUvwnhpNjTTcnunYN6sA0COpo4a1XScMe9cTeP-45fPzw=s68-c-k-c0x00ffffff-no-rj" 
-                Channel = "Beer Biceps"
-                image = "https://i.ytimg.com/an_webp/EBCn1btfX68/mqdefault_6s.webp?du=3000&sqp=CNjGqIUG&rs=AOn4CLBo5d54AhwtKmZc5GzyfxUK2jb2_g"
-            />
-                <VideoCard 
-                    title = "Why is the Second Dose so Important? #LargestVaccineDrive"
-                    views = "5.5M views"
-                    timestamp = "1 month ago"
-                    channelImage =  "https://yt3.ggpht.com/ytc/AAUvwnhJciKxecZxkmnlueUfL_f2tUIRwx0e92K2tL0w=s68-c-k-c0x00ffffff-no-rj" 
-                    Channel = "MyGov India"
-                    image = "https://i.ytimg.com/an_webp/jX3aHRNAkPs/mqdefault_6s.webp?du=3000&sqp=CMS7p4UG&rs=AOn4CLD0VymrnvqQDrrIlr9_rStgMH2fDA"
-                />
-                    <VideoCard 
-                    title = "2 Habits That Will Change Your Life!! Sandeep Maheshwari"
-                    views = "759K views"
-                    timestamp = "2 Days ago"
-                    channelImage =  "https://yt3.ggpht.com/ytc/AAUvwniPiQ6rIL47wFuvLVfEZcHurDVYrKtLrTVXDLPH7g=s68-c-k-c0x00ffffff-no-rj" 
-                    Channel = "Sandeep Maheshwari"
-                    image = "https://i.ytimg.com/vi/niWggyktIF0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-NdT-zFekj8Kt9UD-PNRDUQT9Lw"
-                />
-                    <VideoCard 
-                    title = "React & Node Tutorial - Full ECommerce in 9 Hours [2021]"
-                    views = "219K views"
-                    timestamp = "6 months ago"
-                    channelImage =  "https://yt3.ggpht.com/ytc/AAUvwniTD9hZuA7vW9UhBP6GBDLzJAXKCR8ufA9cGGPorQ=s68-c-k-c0x00ffffff-no-rj" 
-                    Channel = "Coding with Basir"
-                    image = "https://i.ytimg.com/an_webp/TRCDsB9i3bI/mqdefault_6s.webp?du=3000&sqp=CKTGp4UG&rs=AOn4CLDUdhVAAfdbpuQJ1iME09h7eIEUdA"
-                />
-                    <VideoCard 
-                    title = "Sonu और Tappu को साथ देख Bhide को हुई Tension - Taarak Mehta Ka Ooltah Chashmah - Sonu Ka Surprise"
-                    views = "8.3M views"
-                    timestamp = "5 Days ago"
-                    channelImage =  "https://yt3.ggpht.com/ytc/AAUvwngNQm1Iu8tC8edkP-TYjcqxb_A5wnWmryUGbVFoORU=s68-c-k-c0x00ffffff-no-rj" 
-                    Channel = "Sony Sab"
-                    image = "https://i.ytimg.com/an_webp/mUmLniVCYys/mqdefault_6s.webp?du=3000&sqp=CLWZp4UG&rs=AOn4CLAna0wHJV2ADq3RV-3C7CCvN7WKOQ"
-                />
+            <VideoCard 
+                    title="Weird Genius - Sweet Scar (ft. Prince Husein)"
+                    views="58.1M Views"
+                    timestamp="2 years ago"
+                    channelImage="https://yt3.ggpht.com/a/AATXAJyhUWH0wx_MBMaRFYULMyAjwRHgoPiIuCgoiTmT=s88-c-k-c0x00ffffff-no-rj"
+                    channel="Weird Genius"
+                    image="https://i.ytimg.com/vi/dxIG9JtakBM/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCGeCi6dYpgCdt1gmXJrijVQBxhTg"
+                  />
+                  <VideoCard 
+                    title="Day in the Life of a Japanese Game Programmer"
+                    views="7M Views"
+                    timestamp="9 month ago"
+                    channelImage="https://yt3.ggpht.com/a/AATXAJzjOc3SNgeA1kDmwPXpSht6n0QTEhZLSciF0W5NbQ=s100-c-k-c0xffffffff-no-rj-mo"
+                    channel="Paolo fromTOKYO "
+                    image="https://i.ytimg.com/vi/e_TxH59MclA/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC-rAIrZojwq7TqBd5Ek_r_94SBZQ"
+                  />
+                  <VideoCard 
+                    title="Channel Update - Taking a Break, Guest Creators"
+                    views="103K Views"
+                    timestamp="1 month ago"
+                    channelImage="https://yt3.ggpht.com/a-/AOh14GgcgHR-l77_lkWlrA3mU6xOkCZLB08l3b1oiw=s68-c-k-c0x00ffffff-no-rj-mo"
+                    channel="Traversy Media"
+                    image="https://i.ytimg.com/vi/7_rz28FDpYM/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCmJD5msmnDgHvpmByx1UsK2dD9iQ"
+                  />
+                  <VideoCard 
+                    title="🔴 7 Most Popular JavaScript Libraries in 2020"
+                    views="9.3K Views"
+                    timestamp="1 month ago"
+                    channelImage="https://yt3.ggpht.com/a-/AOh14GhOUP_9re93yOMdN4RLQLHl6Mbk6vmUS1524w=s68-c-k-c0x00ffffff-no-rj-mo"
+                    channel="Clever Programmer"
+                    image="https://i.ytimg.com/vi/NWOeM-1tgUI/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAsWhPdHsDx_5ttXOuGBr0IdT9PTg"
+                  />
+                  <VideoCard 
+                    title="Anne-Marie & Ed Sheeran – 2002 [Official Acoustic Video]"
+                    views="83M Views"
+                    timestamp="2 years ago"
+                    channelImage="https://yt3.ggpht.com/a/AATXAJxQuKjkILwNh928PJPBTKEr9c2FNLBcflE5y78YSA=s88-c-k-c0x00ffffff-no-rj"
+                    channel="Anne-Marie"
+                    image="https://i.ytimg.com/vi/u3ePPA0yzSU/hqdefault.jpg?sqp=-oaymwEZCOADEI4CSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLA40JzJrL2r8V082XSRNqxOogAM6g"
+                  />
+                  <VideoCard 
+                    title="React & Node Tutorial - Full ECommerce in 5 Hours [2020]"
+                    views="190K Views"
+                    timestamp="3 month ago"
+                    channelImage="https://yt3.ggpht.com/a-/AOh14GjivGa_ZhV0i2BNMkSpR1qZtlzL_cH23eoeyQ=s68-c-k-c0x00ffffff-no-rj-mo"
+                    channel="Coding with Basir"
+                    image="https://i.ytimg.com/vi/Fy9SdZLBTOo/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB3UJOyozP7f5PMcVMT6jpYPdaYqg"
+                  />
+                  <VideoCard 
+                    title="PERN Stack Mega Course: Postgres Express React Node 6.5Hrs!"
+                    views="4.1K Views"
+                    timestamp="1 month ago"
+                    channelImage="https://yt3.ggpht.com/a-/AOh14Gi5EcVLrnyZ1-fUzJ5y47xgMv8U-_T_teBHCA=s68-c-k-c0x00ffffff-no-rj-mo"
+                    channel="Weird Genius"
+                    image="https://i.ytimg.com/vi/7qAXvOFhlDc/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC7Uz6vCAsr8u2h09fW-z1UsG6cSw"
+                  />
+                  <VideoCard 
+                    title="Build a Voice Recognition React News Application - Alan AI Voice Assistant"
+                    views="23K Views"
+                    timestamp="2 week ago"
+                    channelImage="https://yt3.ggpht.com/a-/AOh14GhsPMReHx0LFOV0t7dpA7IwtGf_rf6hErq6CA=s68-c-k-c0x00ffffff-no-rj-mo"
+                    channel="JavaScript Mastery"
+                    image="https://i.ytimg.com/vi/rqw3OftE5sA/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDQLemWME87k6i_e1Qy9LGcMZJBqg"
+                  />
+                  <VideoCard 
+                    title="🔴 Build a Zoom Clone with Node JS for Beginners"
+                    views="104K Views"
+                    timestamp="2 week ago"
+                    channelImage="https://yt3.ggpht.com/a-/AOh14GhOUP_9re93yOMdN4RLQLHl6Mbk6vmUS1524w=s68-c-k-c0x00ffffff-no-rj-mo"
+                    channel="Clever Programmer"
+                    image="https://i.ytimg.com/vi/ZVznzY7EjuY/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAAHmiSo1PUEJ1QQ0Otifpqfqo_hg"
+                  />
                  <VideoCard 
-                title = "Bollywood's UNTOLD Dark Truths, Secrets, Gossips And More ft. Renil Abraham | The Ranveer Show 09"
-                views = "787K views"
-                timestamp = "1 year ago"
-                channelImage =  "https://yt3.ggpht.com/ytc/AAUvwnhpNjTTcnunYN6sA0COpo4a1XScMe9cTeP-45fPzw=s68-c-k-c0x00ffffff-no-rj" 
-                Channel = "Beer Biceps"
-                image = "https://i.ytimg.com/an_webp/EBCn1btfX68/mqdefault_6s.webp?du=3000&sqp=CNjGqIUG&rs=AOn4CLBo5d54AhwtKmZc5GzyfxUK2jb2_g"
-            />
-                <VideoCard 
-                    title = "Why is the Second Dose so Important? #LargestVaccineDrive"
-                    views = "5.5M views"
-                    timestamp = "1 month ago"
-                    channelImage =  "https://yt3.ggpht.com/ytc/AAUvwnhJciKxecZxkmnlueUfL_f2tUIRwx0e92K2tL0w=s68-c-k-c0x00ffffff-no-rj" 
-                    Channel = "MyGov India"
-                    image = "https://i.ytimg.com/an_webp/jX3aHRNAkPs/mqdefault_6s.webp?du=3000&sqp=CMS7p4UG&rs=AOn4CLD0VymrnvqQDrrIlr9_rStgMH2fDA"
-                />
-                    <VideoCard 
-                    title = "2 Habits That Will Change Your Life!! Sandeep Maheshwari"
-                    views = "759K views"
-                    timestamp = "2 Days ago"
-                    channelImage =  "https://yt3.ggpht.com/ytc/AAUvwniPiQ6rIL47wFuvLVfEZcHurDVYrKtLrTVXDLPH7g=s68-c-k-c0x00ffffff-no-rj" 
-                    Channel = "Sandeep Maheshwari"
-                    image = "https://i.ytimg.com/vi/niWggyktIF0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-NdT-zFekj8Kt9UD-PNRDUQT9Lw"
-                />
+                    title="Channel Update - Taking a Break, Guest Creators"
+                    views="103K Views"
+                    timestamp="1 month ago"
+                    channelImage="https://yt3.ggpht.com/a-/AOh14GgcgHR-l77_lkWlrA3mU6xOkCZLB08l3b1oiw=s68-c-k-c0x00ffffff-no-rj-mo"
+                    channel="Traversy Media"
+                    image="https://i.ytimg.com/vi/7_rz28FDpYM/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCmJD5msmnDgHvpmByx1UsK2dD9iQ"
+                  />
+                  <VideoCard 
+                    title="🔴 7 Most Popular JavaScript Libraries in 2020"
+                    views="9.3K Views"
+                    timestamp="1 month ago"
+                    channelImage="https://yt3.ggpht.com/a-/AOh14GhOUP_9re93yOMdN4RLQLHl6Mbk6vmUS1524w=s68-c-k-c0x00ffffff-no-rj-mo"
+                    channel="Clever Programmer"
+                    image="https://i.ytimg.com/vi/NWOeM-1tgUI/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAsWhPdHsDx_5ttXOuGBr0IdT9PTg"
+                  />
                 </div>
         </div>
     )
